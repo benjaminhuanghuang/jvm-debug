@@ -1,3 +1,9 @@
 hash:
-	javac CountHash.java &&\
-	java CountHash
+	javac ObjHeader.java &&\
+	java ObjHeader
+
+
+
+clean:
+	rm -rf *.class
+

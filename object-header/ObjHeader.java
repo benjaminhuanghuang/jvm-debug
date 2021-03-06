@@ -6,7 +6,7 @@ import sun.misc.Unsafe;
 /*
   Calculate hash code 
 */
-public class CountHash {
+public class ObjHeader {
   static Object l = new Object();
   public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException{
       System.out.println(Integer.toHexString(l.hashCode()));
